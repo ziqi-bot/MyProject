@@ -1,7 +1,7 @@
 package MyProject.DeveloperArrangementSystem.team.domain;
 
 public class Printer implements Equipment {
-    private  String name;
+    private String name;
     private String type;
 
     public Printer() {
@@ -30,6 +30,6 @@ public class Printer implements Equipment {
 
     @Override
     public String getDescription() {
-        return name +"("+type+")";
+        return name + "(" + type + ")";
     }
 }
