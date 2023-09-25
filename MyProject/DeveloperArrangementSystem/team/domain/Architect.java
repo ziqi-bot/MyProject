@@ -37,5 +37,11 @@ public class Architect extends Designer {
     public String toString() {
         return getDetails() + "\tArchitect\t" + getStatus() + "\t" + getBonus() + "\t" + getStock() + "\t"
                 + getEquipment().getDescription();
+
+    }
+
+    public String getDetailsForTeam(){
+        return getBasicDetailsForTeam()+"\t Architect\t"+getBonus()+"\t"+getStock();
+
     }
 }

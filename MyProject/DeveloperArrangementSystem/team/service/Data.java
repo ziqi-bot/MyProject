@@ -16,9 +16,9 @@ public class Data {
     //Designer  :  12, id, name, age, salary, bonus
     //Architect :  13, id, name, age, salary, bonus, stock
     public static final String[][] EMPLOYEES = {
-            {"10", "1", "Amy", "22", "3000"},
+            {"10", "1", "Alen", "22", "3000"},
             {"13", "2", "Bill", "32", "18000", "15000", "2000"},
-            {"11", "3", "Charlie", "23", "7000"},
+            {"11", "3", "Carol", "23", "7000"},
             {"11", "4", "David", "24", "7300"},
             {"12", "5", "Edward", "28", "10000", "5000"},
             {"11", "6", "Frank", "22", "6800"},

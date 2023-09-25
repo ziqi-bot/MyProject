@@ -5,8 +5,16 @@ import jdk.jshell.Snippet;
 
 public class Programmer extends Employee {
     private int memberId;
-    private Status status=Status.FREE;
+    private Status status = Status.FREE;
     private Equipment equipment;
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 
     public int getMemberId() {
         return memberId;
@@ -33,9 +41,18 @@ public class Programmer extends Employee {
     }
 
 
-
     @Override
     public String toString() {
-        return getDetails()+"\tProgrammer\t"+status+"\t\t\t\t\t"+equipment.getDescription();
+        return getDetails() + "\tProgrammer\t" + status + "\t\t\t\t\t" + equipment.getDescription();
     }
+
+    protected String getBasicDetailsForTeam() {
+        return memberId + "/" + getId() + "\t" + getName() + "\t" + getAge() + "\t" + getSalary();
+    }
+
+    public String getDetailsForTeam() {
+        return getBasicDetailsForTeam() + "\tProgrammer";
+
+    }
+
 }

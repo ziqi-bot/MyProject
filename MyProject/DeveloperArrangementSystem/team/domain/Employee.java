@@ -5,7 +5,7 @@ public class Employee {
     private String name;
     private int age;
     private double salary;
-    private Equipment equipment;
+
     public int getId() {
         return id;
     }
