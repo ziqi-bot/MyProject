@@ -5,36 +5,33 @@ import java.util.*;
 
 public class TSUtility {
     private static Scanner scanner = new Scanner(System.in);
+
     /**
-     * 
      * @Description select from  1-4
-     *
      */
-	public static char readMenuSelection() {
+    public static char readMenuSelection() {
         char c;
         for (; ; ) {
             String str = readKeyBoard(1, false);
             c = str.charAt(0);
             if (c != '1' && c != '2' &&
-                c != '3' && c != '4') {
+                    c != '3' && c != '4') {
                 System.out.print("Wrong input, try again：");
             } else break;
         }
         return c;
     }
-	/**
-	 * 
-	 * @Description wait, until enter...
 
-	 */
+    /**
+     * @Description wait, until enter...
+     */
     public static void readReturn() {
         System.out.print("Press ENTER to continue...");
         readKeyBoard(100, true);
     }
-    /**
-     * 
-     * @Description sys input numbers
 
+    /**
+     * @Description sys input numbers
      */
     public static int readInt() {
         int n;
@@ -49,10 +46,9 @@ public class TSUtility {
         }
         return n;
     }
-    /**
-     * 
-     * @Description y or n?
 
+    /**
+     * @Description y or n?
      */
     public static char readConfirmSelection() {
         char c;
