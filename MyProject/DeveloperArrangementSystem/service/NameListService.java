@@ -1,7 +1,7 @@
 package MyProject.DeveloperArrangementSystem.service;
 
 import MyProject.DeveloperArrangementSystem.domain.*;
-import MyProject.DeveloperArrangementSystem.team.domain.*;
+
 
 import static MyProject.DeveloperArrangementSystem.service.Data.*;
 

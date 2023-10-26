@@ -4,7 +4,7 @@ import MyProject.DeveloperArrangementSystem.domain.Architect;
 import MyProject.DeveloperArrangementSystem.domain.Designer;
 import MyProject.DeveloperArrangementSystem.domain.Employee;
 import MyProject.DeveloperArrangementSystem.domain.Programmer;
-import MyProject.DeveloperArrangementSystem.team.domain.*;
+
 
 public class TeamService {
     private int counter = 1; //static variable, generate unique memberID for new team member
