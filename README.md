@@ -1,2 +1,2 @@
 # MyProject
-java projects
+javaEE projects
